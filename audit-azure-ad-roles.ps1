@@ -1,3 +1,5 @@
+#  PowerShell script that outputs a text file containing a list of users for each Azure AD role. Useful for performing HIPAA/PCI DSS/etc. audits for small organizations . 
+
 # Check if Msol cmdlet is installed
 if (-Not (Get-Command -Module MSOnline -errorAction SilentlyContinue)) {
 	echo "Msol is not installed. This script requires the Msol cmdlet to work"
