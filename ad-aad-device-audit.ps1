@@ -1,5 +1,5 @@
 ############################################################
-Compares on-prem AD with Azure AD and lists out devices that exist on one side but not the other
+# Compares on-prem AD with Azure AD and lists out devices that exist on one side but not the other (searches by device ID)
 ############################################################
 
 Connect-AzureAD # | Out-Null
