@@ -1,3 +1,7 @@
+############################################################
+# Searches through iOS and iPadOS devices in AAD and lists out duplicates (by comparing device names)
+############################################################
+
 # Check if Msol cmdlet is installed
 if (-Not (Get-Command -Module AzureAD -errorAction SilentlyContinue)) {
 	echo "AzureAD is not installed. This script requires the AzureAD cmdlet to work"
