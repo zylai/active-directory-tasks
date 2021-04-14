@@ -1,3 +1,7 @@
+############################################################
+Compares on-prem AD with Azure AD and lists out devices that exist on one side but not the other
+############################################################
+
 Connect-AzureAD # | Out-Null
 
 # Get current date to create unique filename to save output
