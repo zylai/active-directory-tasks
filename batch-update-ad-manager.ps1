@@ -1,3 +1,6 @@
+############################################################
+# Batch updates a manager's direct reports in AD. Useful for when a manager with a lot of direct reports leaves the organization.
+############################################################
 $Credential = $host.ui.PromptForCredential("Need credentials", "Please enter your user name and password.", "", "NetBiosUserName")
 $CurrentManager = Read-Host "Enter current manager's username"
 
